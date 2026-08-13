@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mahim | روابط التواصل</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+            width: 100%;
+            min-height: 100%;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont,
+                         "Segoe UI", Tahoma, Arial, sans-serif;
+
+            min-height: 100vh;
+
+            /* مكان الصورة لاحقاً */
+            background-image:
+                linear-gradient(
+                    rgba(0, 0, 0, 0.45),
+                    rgba(0, 0, 0, 0.45)
+                );
+
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+
+            color: white;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            padding: 30px 15px;
+        }
+
+
+        /* الحاوية الرئيسية */
+
+        .container {
+            width: 100%;
+            max-width: 480px;
+
+            text-align: center;
+
+            padding: 35px 20px;
+
+            background: rgba(0, 0, 0, 0.30);
+
+            border-radius: 25px;
+
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+
+            box-shadow:
+                0 10px 35px rgba(0, 0, 0, 0.35);
+        }
+
+
+        /* العنوان */
+
+        .title {
+            font-size: 38px;
+            font-weight: 700;
+
+            letter-spacing: 1px;
+
+            margin-bottom: 8px;
+
+            text-shadow:
+                0 3px 10px rgba(0, 0, 0, 0.6);
+        }
+
+
+        /* الوصف */
+
+        .description {
+            font-size: 17px;
+
+            margin-bottom: 28px;
+
+            opacity: 0.95;
+
+            line-height: 1.7;
+
+            text-shadow:
+                0 2px 7px rgba(0, 0, 0, 0.6);
+        }
+
+
+        /* عنوان وسائل التواصل */
+
+        .social-title {
+            font-size: 20px;
+
+            font-weight: 600;
+
+            margin-bottom: 18px;
+        }
+
+
+        /* الأزرار */
+
+        .button {
+            display: block;
+
+            width: 100%;
+
+            padding: 15px 20px;
+
+            margin: 13px 0;
+
+            border-radius: 14px;
+
+            text-decoration: none;
+
+            color: white;
+
+            font-size: 17px;
+
+            font-weight: 600;
+
+            background: rgba(255, 255, 255, 0.18);
+
+            border: 1px solid rgba(255, 255, 255, 0.30);
+
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+
+            transition:
+                transform 0.2s ease,
+                background 0.2s ease,
+                box-shadow 0.2s ease;
+
+            box-shadow:
+                0 5px 15px rgba(0, 0, 0, 0.20);
+        }
+
+
+        .button:hover {
+            transform: translateY(-2px);
+
+            background:
+                rgba(255, 255, 255, 0.28);
+
+            box-shadow:
+                0 8px 20px rgba(0, 0, 0, 0.30);
+        }
+
+
+        .button:active {
+            transform: scale(0.98);
+        }
+
+
+        /* الفوتر */
+
+        .footer {
+            margin-top: 30px;
+
+            font-size: 13px;
+
+            opacity: 0.75;
+
+            line-height: 1.6;
+        }
+
+
+        /* تحسين الجوال */
+
+        @media (max-width: 600px) {
+
+            body {
+                padding: 15px 10px;
+
+                background-attachment: scroll;
+            }
+
+            .container {
+                padding: 30px 17px;
+
+                border-radius: 22px;
+            }
+
+            .title {
+                font-size: 32px;
+            }
+
+            .description {
+                font-size: 16px;
+            }
+
+            .button {
+                padding: 14px 18px;
+
+                font-size: 16px;
+            }
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+    <main class="container">
+
+        <h1 class="title">
+            Mahim
+        </h1>
+
+
+        <p class="description">
+            مرحباً بكم في صفحتي الرسمية
+        </p>
+
+
+        <h2 class="social-title">
+            تابعني على
+        </h2>
+
+
+        <!-- الأزرار -->
+
+        <a
+            class="button"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer">
+            Facebook
+        </a>
+
+
+        <a
+            class="button"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer">
+            Instagram
+        </a>
+
+
+        <a
+            class="button"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer">
+            TikTok
+        </a>
+
+
+        <a
+            class="button"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer">
+            WhatsApp
+        </a>
+
+
+        <a
+            class="button"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer">
+            X
+        </a>
+
+
+        <div class="footer">
+            © 2026 Mahim — جميع الحقوق محفوظة
+        </div>
+
+    </main>
+
+
+    <script>
+
+        /*
+         * JavaScript
+         * يمكننا إضافة وظائف أخرى هنا لاحقاً
+         */
+
+        console.log("Mahim Links Page Loaded");
+
+    </script>
+
+</body>
+</html>
